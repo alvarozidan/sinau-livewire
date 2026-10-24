@@ -9,3 +9,4 @@ Route::get('/', function () {
 Route::livewire('/post/create', 'pages::post.create');
 Route::livewire('/counter', 'counter');
 Route::livewire('/form', 'form');
+Route::livewire('/posts', 'pages::post.index');

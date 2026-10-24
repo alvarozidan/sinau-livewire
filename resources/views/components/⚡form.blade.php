@@ -18,7 +18,7 @@ new class extends Component
 };
 ?>
 
-<div class="flex felx-col items-center gap-4 p-10">
+<div class="flex flex-col items-center gap-4 p-10">
     {{-- Because you are alive, everything is possible. - Thich Nhat Hanh --}}
     <input type="text" wire:model='nama' placeholder="Ketik nama anda" class="rounded border px-3 py-2">
 
@@ -27,7 +27,7 @@ new class extends Component
     @enderror
 
     <p>Halo, {{ $nama }}</p>
-    <button wire:click='simpan' class="rounded bg-blue-600 px-4 py-2 text=-white hover:bg-blue-700">
+    <button wire:click='simpan' class="rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
         Kirim
     </button>
 
