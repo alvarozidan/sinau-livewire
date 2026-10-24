@@ -61,5 +61,5 @@ new class extends Component
     <button type='submit'>Save</button>
 
     </form>
-    <a href="/posts">index</a>
+    <a href="{{ route('posts.index') }}" wire:navigate>index</a>
 </div>
